@@ -6,7 +6,7 @@ ggplot2::theme_set(ggplot2::theme_bw())
 
 data <- pivot_longer(data, cols = 2:7)
 ggplot(data = data,
-       aes(x = År,
+       aes(x = Ar,
            y = value,
            group = name,
            color = name)) +

@@ -1,6 +1,6 @@
 library("ggplot2")
-library("dplyr")
-data <- read.csv("C:\\Users\\vrike\\Documents\\R\\VIS3\\Data\\telefon.csv", check.names = FALSE)
+library("tidyr")
+data <- read.csv("https://raw.githubusercontent.com/vriken/VIS3/main/Data/blabla.csv", check.names = FALSE)
 ggplot2::theme_set(ggplot2::theme_bw())
 
 

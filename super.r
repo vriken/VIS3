@@ -7,6 +7,10 @@ ggplot2::theme_set(ggplot2::theme_bw()) # här sätter jag theme globalt i alla gg
 #theme_bw
 
 ggpairs(data,
+        mapping = aes(),
         upper = "blank",
-        diag = "blank") # här använder jag mig av ggpairs funktionen på mitt dataset
-#tillsammans med upper = "blank", och diag = "blank"
+        diag = "blank",
+        axisLabels = "none") + # här använder jag mig av ggpairs funktionen på mitt dataset 
+  theme(plot.caption = element_text(face = "italic")) +
+  labs(caption = "Källa: SCB")
+  

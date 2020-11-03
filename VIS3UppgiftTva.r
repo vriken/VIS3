@@ -29,5 +29,5 @@ ggplot(data = data, # här skapar jag ett ggplot objekt med data = data, osv.
         legend.text = element_text(size = 11), # här ändrar jag storleken på legend-texten
         legend.key.size = unit(2, "line"), # här ändrar jag storleken på legend-visarna
         plot.caption = element_text(size = 8, hjust = 0, face = "italic", color = "navy")) +
-  geom_line()  # här bestämmer jag caption attributer och skapar kallar på geom_line()
+  geom_line(size = 2)  # här bestämmer jag caption attributer och skapar kallar på geom_line() och gör linjerna tjockare
   

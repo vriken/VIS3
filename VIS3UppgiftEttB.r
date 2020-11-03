@@ -11,7 +11,8 @@ ggpairs(data, #här skapar jag mitt ggpairs objekt med en mapping som använder si
         upper = "blank", # här tar jag bort korrelationerna
         diag = "blank", # här tar jag bort linjen som dras genom korrelationen
         axisLabels = "none") + # här använder jag mig av ggpairs funktionen på mitt dataset
+ 
   labs(caption = "Källa: SCB",
        title = "Parvisa samband mellan Kor, Får, och Svin")+ # här lägger jag till en footnote och en titel
-  theme(plot.caption = element_text(size = 8, hjust = 0, face = "italic", color = "navy"))# här ändrar jag attributerna för footnoten
+  theme(plot.caption = element_text(size = 9, hjust = 0, face = "italic", color = "navy"))# här ändrar jag attributerna för footnoten
   

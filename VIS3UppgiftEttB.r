@@ -15,5 +15,8 @@ ggpairs(data, #här skapar jag mitt ggpairs objekt med en mapping som använder si
        title = "Parvisa samband mellan Kor, Får, och Svin")+ # här lägger jag till en footnote och en titel
   theme(plot.caption = element_text(size = 12, 
                                     hjust = 0, 
-                                    face = "italic"))# här ändrar jag attributerna för footnoten
+                                    face = "italic"),# här ändrar jag attributerna för footnoten
+        plot.title = element_text(size = 14,
+                                  hjust = 0,
+                                  face = "bold")) #här ändrar jag attributerna för titeln
   

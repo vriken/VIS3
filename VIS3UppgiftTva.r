@@ -2,7 +2,7 @@ library("ggplot2")
 library("tidyr")
 library("scales")
 #här laddar jag in lite libaries
-data <- read.csv("https://raw.githubusercontent.com/vriken/VIS3/main/Data/where_you_from_my.csv", check.names = FALSE)
+data <- read.csv("https://raw.githubusercontent.com/vriken/VIS3/main/Data/utveckling_av_aldersgrupper.csv", check.names = FALSE)
 #här laddar jag in min data, och använde rmig av check.names. för att annars fick jag in en massa X framför mina variabler
 ggplot2::theme_set(ggplot2::theme_bw()) # här sätter jag en global theme_bw()
 
